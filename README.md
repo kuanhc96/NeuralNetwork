@@ -5,7 +5,7 @@
    of OR and AND datasets, but not XOR
 2. nn/pyimagesearch/nn/neuralnetwork.py: this is an implementation of a neural network that can contain an arbitray
    number of input nodes, output nodes, and hidden layers. The math derivation notes can be found in the "Neural Network
-   notes.pdf" document. This is used as a non-linear classifier that can correctly classify XOR data, as well as a
+   notes.pdf" document. The notes were based on this [ article ] (http://neuralnetworksanddeeplearning.com/chap2.html)that I read .This is used as a non-linear classifier that can correctly classify XOR data, as well as a
    subset of the MNIST dataset
 3. nn_tensorflow: this is an implementation of a simple neural network using the tensorflow.keras library. It is used to
    train the full MNIST dataset and CIFAR10 dataset, with plots of the training and validation results indluded. While
